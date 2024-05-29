@@ -1,0 +1,10 @@
+body {
+    cursor: url('../imgs/icons/cursor.png'), auto;
+}
+
+button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-1px);
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}

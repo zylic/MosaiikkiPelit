@@ -1,0 +1,196 @@
+{
+    "start-screen-title": {
+        "fin": "Suomen palapelit",
+        "eng": "Finlands puzzles"
+    },
+
+    "start-screen-language-title": {
+        "fin": "Kieli:",
+        "eng": "Language:"
+    },
+
+    "start-screen-finnish-button": {
+        "fin": "Suomi",
+        "eng": "Finnish"
+    },
+
+    "start-screen-english-button": {
+        "fin": "Englanti",
+        "eng": "English"
+    },
+
+    "start-screen-start-button": {
+        "fin": "Aloita",
+        "eng": "Start"
+    },
+
+    "info-screen-title": {
+        "fin": "Peli ohjeet",
+        "eng": "Game instructions"
+    },
+
+    "info-screen-text-one": {
+        "fin": "Tervetuloa pelaamaan Palapeliä!",
+        "eng": "Welcome to play Jigsaw!"
+    },
+
+    "info-screen-text-two": {
+        "fin": "Tavoitteena on koota palapeli kokonaiseksi mahdollisimman nopeasti.",
+        "eng": "The goal is to assemble the puzzle as quickly as possible."
+    },
+
+    "info-screen-text-three": {
+        "fin": "Peli on jaettu kolmeen eri vaikeustasoon: Helppo, Keskitaso ja Vaikea.",
+        "eng": "The game is divided into three different difficulty levels: Easy, Medium and Hard."
+    },
+
+    "info-screen-text-four": {
+        "fin": "Valitse haluamasi vaikeustaso ja aloita pelaaminen!",
+        "eng": "Choose your desired difficulty and start playing!"
+    },
+
+    "info-screen-text-five": {
+        "fin": "Onnea peliin!",
+        "eng": "Good luck!"
+    },
+
+    "info-screen-start-button": {
+        "fin": "Jatka",
+        "eng": "Continue"
+    },
+
+    "end-screen-title": {
+        "fin": "Pelin Loppu!",
+        "eng": "Game Over!"
+    },
+
+    "end-screen-restart-button": {
+        "fin": "Uusi peli",
+        "eng": "New game"
+    },
+
+    "end-screen-author": {
+        "fin": "Tekijät: Gradian opiskelijat Niklas Virtanen ja Tomas Räsälä",
+        "eng": "Authors: Gradia students Niklas Virtanen and Tomas Räsälä"
+    },
+
+    "game-screen-winner-modal-title": {
+        "fin": "Onneksi olkoon, voitit pelin!",
+        "eng": "Congratulations, you won the game!"
+    },
+
+    "game-screen-winner-modal-restart-button": {
+        "fin": "Uusi peli",
+        "eng": "New game"
+    },
+
+    "game-screen-winner-modal-end-button": {
+        "fin": "Lopeta Peli",
+        "eng": "End Game"
+    },
+
+    "castle-game-button": {
+        "fin": "Linnat",
+        "eng": "Castles"
+    },
+
+    "arms-game-button": {
+        "fin": "Vaakunat",
+        "eng": "Coat of arms"
+    },
+
+    "random-game-button": {
+        "fin": "Satunnainen",
+        "eng": "Random"
+    },
+
+    "easy-game-button": {
+        "fin": "Helppo",
+        "eng": "Easy"
+    },
+
+    "medium-game-button": {
+        "fin": "Keskitaso",
+        "eng": "Medium"
+    },
+
+    "hard-game-button": {
+        "fin": "Vaikea",
+        "eng": "Hard"
+    },
+
+    "impossible-game-button": {
+        "fin": "Todella Vaikea",
+        "eng": "Very Hard"
+    },
+
+    "motive-screen-start-button": {
+        "fin": "Jatka",
+        "eng": "Continue"
+    },
+
+    "motive-screen-title": {
+        "fin": "Motiivi",
+        "eng": "Motive"
+    },
+
+    "motive-screen-text-one": {
+        "fin": "Halusimme tehdä palapeli pelin kaikenikäisille, jotta kaikki voivat oppia suomea ja suomen historiaa hauskalla tavalla.",
+        "eng": "We wanted to create a jigsaw game for people of all ages, so everyone can learn finnish and finnish history in a fun way."
+    },
+
+    "motive-screen-text-two": {
+        "fin": "Palapeli antaa hyvän tavan oppia suomea ja pitää hauskaa samalla aikaa.",
+        "eng": "Jigsaw games give a good way to learn finnish and have fun simultaneously."
+    },
+
+    "motive-screen-text-three": {
+        "fin": "Peli on tehty vuonna 2024 Gradian opiskelijoiden toimesta. Pelin teko kesti vähän alle kuukauden.",
+        "eng": "The game was made in 2024 by Gradia students. The making of the game took a little under a month."
+    },
+
+    "game-info-screen-title": {
+        "fin": "Peli ohjeet",
+        "eng": "Game instructions"
+    },
+
+    "game-info-screen-text-one": {
+        "fin": "Tervetuloa pelaamaan Palapeliä!",
+        "eng": "Welcome to play Jigsaw!"
+    },
+
+    "game-info-screen-text-two": {
+        "fin": "Tavoitteena on koota palapeli kokonaiseksi mahdollisimman nopeasti.",
+        "eng": "The goal is to assemble the puzzle as quickly as possible."
+    },
+
+    "game-info-screen-text-three": {
+        "fin": "Peli on jaettu kolmeen eri vaikeustasoon: Helppo, Keskitaso ja Vaikea.",
+        "eng": "The game is divided into three different difficulty levels: Easy, Medium and Hard."
+    },
+
+    "game-info-screen-text-four": {
+        "fin": "Valitse haluamasi vaikeustaso ja aloita pelaaminen!",
+        "eng": "Choose your desired difficulty and start playing!"
+    },
+
+    "game-info-screen-text-five": {
+        "fin": "Onnea peliin!",
+        "eng": "Good luck!"
+    },
+
+    "game-info-start-button": {
+        "fin": "Jatka",
+        "eng": "Continue"
+    },
+
+    "game-screen-help-modal-title": {
+        "fin": "Kuva",
+        "eng": "Picture"
+    },
+
+    "game-screen-help-modal-close-button": {
+        "fin": "Sulje",
+        "eng": "Close"
+    }
+}

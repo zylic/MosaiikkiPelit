@@ -1,0 +1,282 @@
+{
+    "Linnat": {
+
+        "Olavinlinna": {
+            "url": "./imgs/puzzle/Olavinlinna.jpg",
+            "fact": {
+                "fin": "Olavinlinna on Suomen vanhin keskiaikainen linna ja se on rakennettu vuosina 1475-1485",
+                "eng": "Olavinlinna is the oldest medieval castle in Finland and it was built in 1475-1485"
+            }
+        },
+
+        "Turunlinna": {
+            "url": "./imgs/puzzle/Turunlinna.jpg",
+            "fact": {
+                "fin": "Turun linna on alun perin rakennettu Ruotsin kruunun hallintolinnaksi 1200-luvulla",
+                "eng": "Turku Castle was originally built as an administrative castle for the Swedish crown in the 13th century"
+            }
+        },
+
+        "Raaseporinlinna": {
+            "url": "./imgs/puzzle/Raaseporinlinna.jpg",
+            "fact": {
+                "fin": "Raaseporin linna on rakennettu 1300-luvulla. Se hylättiin 1500-luvulla Helsingin perustamisen, maankohoamisen ja olutkellarin romahtamisen vuoksi.",
+                "eng": "Raseborg Castle was built in the 14th century. It was abandoned in the 16th century due to the founding of Helsinki, land uplift and the collapse of the beer cellar."
+            }
+        },
+
+        "Bomarsundlinna": {
+            "url": "./imgs/puzzle/Bomarsundlinna.jpg",
+            "fact": {
+                "fin": "Bomarsundin linna on Bomarsundin kylässä sijaitseva rauniolinna. Sen päälinna oli Ahvenanmaan suurin rakennus. Linnoitusta ei saatu rakennettua valmiiksi ennen kuin se tuhottiin vuonna 1854 Oolannin sodassa.",
+                "eng": "Bomarsund Castle is a ruined castle located in the village of Bomarsund. Its main castle was the largest building in Åland. The fortress was not completed until it was destroyed in 1854 in the Oolanni War."
+            }
+        },
+
+        "Hameenlinna": {
+            "url": "./imgs/puzzle/Hameenlinna.jpg",
+            "fact": {
+                "fin": "Hämeen linna sijaitsee Vanajaveden kaupungin rannalla. Linna rakennettiin 1200-luvun loppu puolella ja nykyisin se toimii museona.",
+                "eng": "Hämeen castle is located in the town of Vanajavesi on the beach. The castle was built at the end of the 13th century and today it functions as a museum."
+            }
+        },
+
+        "Kastelholmlinna": {
+            "url": "./imgs/puzzle/Kastelholmlinna.jpg",
+            "fact": {
+                "fin": "Kastelholm linna on linna Ahvenanmaan Sundissa. Linna rakennettiin valmiiksi 1300-luvun loppu puolella ja siitä tuli Ahvenanmaan hallintokeskus 1400-luvun alussa.",
+                "eng": "Kastelholm castle is a castle in the Sund of Åland. The castle was completed in the late 14th century and became the administrative center of Åland in the early 15th century."
+            }
+        }
+    },
+
+    "Vaakunat": {
+
+        "Tamperevaakuna": {
+            "url": "./imgs/puzzle/Tamperevaakuna.jpg",
+            "fact": {
+                "fin": "Tampereen vaakunan suunnitteli taiteilija Olof Eriksson ja se otettiin käyttöön 30. maaliskuuta 1960",
+                "eng": "The coat of arms of Tampere was designed by artist Olof Eriksson and it was adopted on March 30, 1960"
+            }
+        },
+
+        "Keuruuvaakuna": {
+            "url": "./imgs/puzzle/Keuruuvaakuna.jpg",
+            "fact": {
+                "fin": "Keuruun vaakuna on saanut aiheensa maataloudesta ja seudulla aikoinaan kirkkoveneillä tehdyistä kirkkomatkoista. Vaakunan on suunnitellut taiteilija Olof Eriksson.",
+                "eng": "The coat of arms of Keuruu is inspired by agriculture and the church trips made with church boats in the area. The coat of arms was designed by artist Olof Eriksson."
+            }
+        },
+
+        "Jyvaskylavaakuna": {
+            "url": "./imgs/puzzle/Jyvaskylavaakuna.jpg",
+            "fact": {
+                "fin": "Jyväskylän vaakuna on Jyväskylän kaupungin virallinen tunnus, jonka aihe viittaa kauppaan ja alueen sisävesiliikenteeseen. Nykyinen vaakuna on Jussi Järppisen suunnittelema.",
+                "eng": "The coat of arms of Jyväskylä is the official symbol of the city of Jyväskylä, the theme of which refers to trade and inland waterway traffic in the area. The current coat of arms was designed by Jussi Järppinen."
+            }
+        },
+
+        "Suomivaakuna": {
+            "url": "./imgs/puzzle/Suomivaakuna.jpg",
+            "fact": {
+                "fin": "Suomen vaakuna on valtion tunnus. Suomen vaakunassa on punaisella pohjalla leijona niin sanottu Suomen leijona. Nykyisen suomen vaakunan vuodelta 1978 suunnitteli Olof Eriksson.",
+                "eng": "The coat of arms of Finland is the emblem of the state. The coat of arms of Finland has a lion on a red background, the so-called lion of Finland. The current Finnish coat of arms from 1978 was designed by Olof Eriksson."
+            }
+        },
+
+        "Helsinkivaakuna": {
+            "url": "./imgs/puzzle/Helsinkivaakuna.jpg",
+            "fact": {
+                "fin": "Helsingin vaakuna on Helsingin kaupungin tunnus. Vaakunakuvio esittää laivaa, joka keinuu meren aalloilla näin kuvaten ruotsalaisten saapumista alueelle. Vaakunan teki Johannes Bureus vuonna 1599.",
+                "eng": "The coat of arms of Helsinki is the emblem of the city of Helsinki. The coat of arms shows a ship rocking on the waves of the sea, thus depicting the arrival of the Swedes in the area. The coat of arms was made by Johannes Bureus in 1599."
+            }
+        },
+
+        "Imatravaakuna": {
+            "url": "./imgs/puzzle/Imatravaakuna.jpg",
+            "fact": {
+                "fin": "Imatran vaakuna on Imatran kaupungin tunnus. Vaakunan aihe viittaa voimalaitoksiin, joita rakennettiin 1920-luvun alussa Imatran alueelle. Vaakunan on suunnitellut Olof Eriksson vuonna 1950.",
+                "eng": "The coat of arms of Imatra is the emblem of the city of Imatra. The subject of the coat of arms refers to the power plants that were built in the early 1920s in the Imatra area. The coat of arms was designed by Olof Eriksson in 1950."
+            }
+        },
+
+        "Kalajokivaakuna": {
+            "url": "./imgs/puzzle/Kalajokivaakuna.jpg",
+            "fact": {
+                "fin": "Kalajoen vaakuna on Kalajoen kaupungin tunnus. Vaakuna on saanut aiheensa talonpoikaispurjehduksesta. Vaakunan suunnitteli Gustaf von Numers vuonna 1958.",
+                "eng": "The coat of arms of Kalajoki is the emblem of the city of Kalajoki. The coat of arms is inspired by peasant sailing. The coat of arms was designed by Gustaf von Numers in 1958."
+            }
+        },
+
+        "Kuopiovaakuna": {
+            "url": "./imgs/puzzle/Kuopiovaakuna.jpg",
+            "fact": {
+                "fin": "Kuopion vaakuna on Kuopion kaupungin tunnus. Sen on suunnitellut kellarimestari Karl Hårdh vuonna 1823. Nykyisen vaakunan on suunnitellut Seppo Ruotsalainen ja otettiin käyttöön vuonna 1958.",
+                "eng": "The coat of arms of Kuopio is the emblem of the city of Kuopio. It was designed by cellar master Karl Hårdh in 1823. The current coat of arms was designed by Seppo Ruotsalainen and was put into use in 1958."
+            }
+        },
+
+        "Ouluvaakuna": {
+            "url": "./imgs/puzzle/Ouluvaakuna.jpg",
+            "fact": {
+                "fin": "Oulun vaakuna on Oulun kaupungin tunnus. Vaakunan linna viittaa vuonna 1590 perustettuun Oulun linnaan ja linnan alapuolinen lohi kuvaa Oulujoen historiaa tärkeänä lohijokena. Sen on suunnitellut arkkitehti Martti Heikura.",
+                "eng": "The coat of arms of Oulu is the emblem of the city of Oulu. The coat of arms Castle refers to Oulu Castle founded in 1590 and the salmon below the castle describes the history of Oulujoki as an important salmon river. It was designed by architect Martti Heikura."
+            }
+        },
+
+        "Porvoovaakuna": {
+            "url": "./imgs/puzzle/Porvoovaakuna.jpg",
+            "fact": {
+                "fin": "Porvoon vaakuna perustuu kaupungin keskiaikaiseen sinettiin, jonka aihe on tulkittu tulusraudaksi tai C-kirjaimeksi latinalaisen linnaa tarkoittavan sanan mukaan. Vaakunan on piirtänyt Gustaf von Numers ja otettu käyttöön vuonna 1960.",
+                "eng": "Porvoo's coat of arms is based on the city's medieval seal, the subject of which has been interpreted as a revenue iron or the letter C, according to the Latin word for castle. The coat of arms was drawn by Gustaf von Numers and put into use in 1960."
+            }
+        },
+
+        "Turkuvaakuna": {
+            "url": "./imgs/puzzle/Turkuvaakuna.jpg",
+            "fact": {
+                "fin": "Turun kaupungin vaakuna pohjautuu keskiaikaiseen sinettiin vuodelta 1309. Lilja kukka vaakunassa symboloi Neitsyt Mariaa, jolle Turun tuomiokirkko on pyhitetty. Nykyisen vaakunan on piirtänyt Tauno Torpo vuonna 1965.",
+                "eng": "The coat of arms of the city of Turku is based on a medieval seal from 1309. The lily flower in the coat of arms symbolizes the Virgin Mary, to whom Turku Cathedral is dedicated. The current coat of arms was drawn by Tauno Torpo in 1965."
+            }
+        },
+
+        "Vantaavaakuna": {
+            "url": "./imgs/puzzle/Vantaavaakuna.jpg",
+            "fact": {
+                "fin": "Vantaan vaakuna on Vantaan kaupungin virallinen tunnus. Se hyväksyttiin vuonna 1951, kun Vantaa oli vielä Helsingin maalaiskunta. Vaakunan piirsi Kullervo Telamaa.",
+                "eng": "The coat of arms of Vantaa is the official emblem of the city of Vantaa. It was approved in 1951, when Vantaa was still a rural municipality of Helsinki. The coat of arms was drawn by Kullervo Telamaa."
+            }
+        }
+    },
+
+    "Randoms": {
+        
+        "SibeliusMonumentti": {
+            "url": "./imgs/puzzle/SibeliusMonumentti.jpg",
+            "fact": {
+                "fin": "Sibelius Monumentti on Sibeliuksen puistossa sijaitseva veistos haponkestävästä teräksestä, joka valmistettiin vuonna 1967.",
+                "eng": "The Sibelius Monument is a sculpture in Sibelius park made of acid-resistant steel, which was made in 1967."
+            }
+        },
+
+        "AleksisKiviPatsas": {
+            "url": "./imgs/puzzle/AleksisKiviPatsas.jpg",
+            "fact": {
+                "fin": "Tämä patsas on muistopatsas Aleksis Kivestä, jonka Wäinä Aalto veisti vuonna 1939. Se sijaitsee Helsingin Rautatientorilla.",
+                "eng": "This statue is a commemorative statue of Aleksis Kivi, which was sculpted by Wäinö Aalto in 1939. It is located in Helsinki's Rautatientori."
+            }
+        },
+
+        "SuomenKansallisteatteri": {
+            "url": "./imgs/puzzle/SuomenKansallisteatteri.jpg",
+            "fact": {
+                "fin": "Suomen Kansallisteatteri valmistettiin vuonna 1902. Se sijaitsee Helsingin Rautatientorilla. Se on taiteellinen teatteri, jonka tavoitteena on tarjota kaikille suomalaisille suomenkielistä teatteritaidetta.",
+                "eng": "Suomen Kansallisteatteri was built in 1902. It is located in Helsinki's Rautatientori. It is an artistic theater thats goal is to offer Finnish theater art to all Finns."
+            }
+        },
+
+        "HelsinkiKatedraali": {
+            "url": "./imgs/puzzle/HelsinkiKatedraali.jpg",
+            "fact": {
+                "fin": "Helsingin tuomiokirkko on Helsingin hiippakunnan pääkirkko. Carl Ludvig Engelin suunnitteli kirkon ja se rakennettiin vuosina 1830-1852.",
+                "eng": "Helsinki Cathedral is the main church of the Diocese of Helsinki. Carl Ludvig Engelin designed the church and it was built between 1830 and 1852."
+            }
+        },
+
+        "VanhaKauppahalli": {
+            "url": "./imgs/puzzle/VanhaKauppahalli.jpg",
+            "fact": {
+                "fin": "Vanha Kauppahalli on vuonna 1889 valmistettu kauppahalli Helsingissä. Se sijaitsee lähellä Kauppatoria. Rakennuksen suunnittelija on Gustaf Nyström.",
+                "eng": "Vanha Kauppahalli is a market hall built in 1889 in Helsinki. Located near Kauppatori. The designer of the building is Gustaf Nyström."
+            }
+        },
+
+        "HelsinkiKristinuskoKirkko": {
+            "url": "./imgs/puzzle/HelsinkiKirkko.jpg",
+            "fact": {
+                "fin": "Uspenskin katedraali on Helsingin ortodoksisen seurakunnan pääkirkko eli katedraali. Katedraali on rakennettu vuonna 1868 ja se sijaitsee Helsingin keskustassa. Katedraalin suunnittelija on Aleksei Gornostajev.",
+                "eng": "Uspenski Cathedral is the main church or cathedral of the Helsinki Orthodox congregation. The cathedral was built in 1868 and is located in the center of Helsinki. The designer of the cathedral is Aleksei Gornostajev."
+            }
+        },
+
+        "LappiNapapiiri": {
+            "url": "./imgs/puzzle/LappiNapapiiri.jpg",
+            "fact": {
+                "fin": "Tämä kyltti näyttää napapiirin. Joulutalo sijaitsee Joulupukin pajakylässä Rovaniemellä ja Napapiiri on punainen piste kyltissä ja se kulkee Pajakylän halki.",
+                "eng": "This sign shows the Arctic Circle. Joulutalo is located in Santa's Pajakylä in Rovaniemi, and the Arctic Circle is the red dot on the sign and it goes through Pajakylä."
+            }
+        },
+
+        "Tamperevaakuna": {
+            "url": "./imgs/puzzle/Tamperevaakuna.jpg",
+            "fact": {
+                "fin": "Tampereen vaakunan suunnitteli taiteilija Olof Eriksson ja se otettiin käyttöön 30. maaliskuuta 1960",
+                "eng": "The coat of arms of Tampere was designed by artist Olof Eriksson and it was adopted on March 30, 1960"
+            }
+        },
+
+        "Keuruuvaakuna": {
+            "url": "./imgs/puzzle/Keuruuvaakuna.jpg",
+            "fact": {
+                "fin": "Keuruun vaakuna on saanut aiheensa maataloudesta ja seudulla aikoinaan kirkkoveneillä tehdyistä kirkkomatkoista. Vaakunan on suunnitellut taiteilija Olof Eriksson.",
+                "eng": "The coat of arms of Keuruu is inspired by agriculture and the church trips made with church boats in the area. The coat of arms was designed by artist Olof Eriksson."
+            }
+        },
+
+        "Jyvaskylavaakuna": {
+            "url": "./imgs/puzzle/Jyvaskylavaakuna.jpg",
+            "fact": {
+                "fin": "Jyväskylän vaakuna on Jyväskylän kaupungin virallinen tunnus, jonka aihe viittaa kauppaan ja alueen sisävesiliikenteeseen. Nykyinen vaakuna on Jussi Järppisen suunnittelema.",
+                "eng": "The coat of arms of Jyväskylä is the official symbol of the city of Jyväskylä, the theme of which refers to trade and inland waterway traffic in the area. The current coat of arms was designed by Jussi Järppinen."
+            }
+        },
+
+        "Olavinlinna": {
+            "url": "./imgs/puzzle/Olavinlinna.jpg",
+            "fact": {
+                "fin": "Olavinlinna on Suomen vanhin keskiaikainen linna ja se on rakennettu vuosina 1475-1485",
+                "eng": "Olavinlinna is the oldest medieval castle in Finland and it was built in 1475-1485"
+            }
+        },
+
+        "Turunlinna": {
+            "url": "./imgs/puzzle/Turunlinna.jpg",
+            "fact": {
+                "fin": "Turun linna on alun perin rakennettu Ruotsin kruunun hallintolinnaksi 1200-luvulla",
+                "eng": "Turku Castle was originally built as an administrative castle for the Swedish crown in the 13th century"
+            }
+        },
+
+        "Raaseporinlinna": {
+            "url": "./imgs/puzzle/Raaseporinlinna.jpg",
+            "fact": {
+                "fin": "Raaseporin linna on rakennettu 1300-luvulla. Se hylättiin 1500-luvulla Helsingin perustamisen, maankohoamisen ja olutkellarin romahtamisen vuoksi.",
+                "eng": "Raseborg Castle was built in the 14th century. It was abandoned in the 16th century due to the founding of Helsinki, land uplift and the collapse of the beer cellar."
+            }
+        },
+
+        "Bomarsundlinna": {
+            "url": "./imgs/puzzle/Bomarsundlinna.jpg",
+            "fact": {
+                "fin": "Bomarsundin linna on Bomarsundin kylässä sijaitseva rauniolinna. Sen päälinna oli Ahvenanmaan suurin rakennus. Linnoitusta ei saatu rakennettua valmiiksi ennen kuin se tuhottiin vuonna 1854 Oolannin sodassa.",
+                "eng": "Bomarsund Castle is a ruined castle located in the village of Bomarsund. Its main castle was the largest building in Åland. The fortress was not completed until it was destroyed in 1854 in the Oolanni War."
+            }
+        },
+
+        "Hameenlinna": {
+            "url": "./imgs/puzzle/Hameenlinna.jpg",
+            "fact": {
+                "fin": "Hämeen linna sijaitsee Vanajaveden kaupungin rannalla. Linna rakennettiin 1200-luvun loppu puolella ja nykyisin se toimii museona.",
+                "eng": "Hämeen castle is located in the town of Vanajavesi on the beach. The castle was built at the end of the 13th century and today it functions as a museum."
+            }
+        },
+
+        "Kastelholmlinna": {
+            "url": "./imgs/puzzle/Kastelholmlinna.jpg",
+            "fact": {
+                "fin": "Kastelholm linna on linna Ahvenanmaan Sundissa. Linna rakennettiin valmiiksi 1300-luvun loppu puolella ja siitä tuli Ahvenanmaan hallintokeskus 1400-luvun alussa.",
+                "eng": "Kastelholm castle is a castle in the Sund of Åland. The castle was completed in the late 14th century and became the administrative center of Åland in the early 15th century."
+            }
+        }
+    }
+}

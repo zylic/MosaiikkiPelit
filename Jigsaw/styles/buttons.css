@@ -1,0 +1,295 @@
+#start-screen-motive-button{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+#start-screen-motive-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* Info Page */
+
+#info-screen-exit-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#info-screen-exit-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#info-screen-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#info-screen-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#info-screen-english-button {
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+
+#info-screen-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* Game Choice Screen */
+
+#game-choice-exit-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#game-choice-exit-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-choice-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#game-choice-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-choice-english-button {
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+
+#game-choice-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* Game choice screen */
+
+#game-difficulty-exit-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#game-difficulty-exit-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-difficulty-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#game-difficulty-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-difficulty-english-button {
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+
+#game-difficulty-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* Game Screen */
+
+#game-screen-exit-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#game-screen-exit-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-screen-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#game-screen-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-screen-english-button {
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+
+#game-screen-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-screen-help-button {
+    position: absolute;
+    top: -1.6%;
+    right: 19%;
+    scale: 0.5;
+}
+
+#game-screen-help-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-screen-info-button {
+    position: absolute;
+    top: 1%;
+    right: 16%;
+}
+
+#game-screen-info-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-screen-hint-button {
+    position: absolute;
+    top: 3%;
+    left: 29%;
+}
+
+#game-screen-hint-button:hover {
+    content: url('../imgs/icons/lightbulbQuestionYellow.png');
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.9);
+    transition: 0.2s;
+    filter: drop-shadow(0 0 20px rgb(255, 255, 0));
+}
+
+/* Motive screen */
+
+#motive-screen-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#motive-screen-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#motive-screen-english-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#motive-screen-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* Ingame screen buttons */
+
+#game-info-exit-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#game-info-exit-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-info-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#game-info-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#game-info-english-button {
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+
+#game-info-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* End screen buttons */
+
+#end-screen-exit-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#end-screen-exit-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#end-screen-finnish-button {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+}
+
+#end-screen-finnish-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+#end-screen-english-button {
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+
+#end-screen-english-button:hover {
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}
+
+/* Fact screen */
+#game-screen-tts-button {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    scale: 1.1;
+}
+
+#game-screen-tts-button:hover {
+    content: url('../imgs/icons/ttsButtonHover.png');
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.95);
+}

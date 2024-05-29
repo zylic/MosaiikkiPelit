@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: rgba(219, 219, 219, 0.808);
+    color: black;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.rotate {
+    animation: rotate360 0.5s forwards;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+button {
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+
+button:active {
+    box-shadow: none;
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+
+.game-container {
+    box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 5px, inset rgba(255,255,255,.9) 3px 3px 5px, rgba(0, 0, 0, 0.8) 3px 3px 5px -3px;
+    background-color: rgb(255, 255, 255);
+    outline: 2px dashed rgba(0, 0, 0, 0.055);
+    display: flex; 
+    position: absolute;
+    height: 650px;
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    color: #f00;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.jigsaw-piece {
+    border: 1px solid black;
+}

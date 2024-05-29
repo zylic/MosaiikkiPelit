@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Kielioppi, Oppiminen, Suomi, Englanti, Kieli, Opetus, Peli, Hauska, 
+    Fun, Game, Learning, Finnish, English, Palapeli, Jigsaw puzzle, Puzzle">
+    <meta name="description" content="Web learning games for children made fun">
+    <meta name="author" content="Niklas Virtanen & Tomas Räsälä">
+    <script type="module" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/pages.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/cursor.css">
+    <title>Palapeli</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="page" id="loadingScreen" style="display: block">
+            <div class="ring">
+                <div class="loadingText" id="loadingText">0%</div>
+                <span></span>
+              </div>
+        </div>
+
+        <div class="page" id="page-start-screen" style="display: none;">
+            <h1 id="start-screen-title"></h1>
+
+            <h2 id="start-screen-language-title"></h2>
+            <button id="start-screen-finnish-button"></button>
+            <button id="start-screen-english-button"></button>
+            <div id="start-screen-motive-button">
+                <img src="./imgs/icons/motiveButton.png" draggable="false">
+            </div>
+            <img id="start-screen-language-selected" src="./imgs/icons/arrow.png" draggable="false"></img>
+
+            <button id="start-screen-start-button"></button>
+
+            <img src="./imgs/icons/puzzlePieces.png" alt="Puzzle Pieces" id="puzzlePieceImg" draggable="false">
+        </div>
+
+        <div class="page" id="page-info-screen" style="display: none;">
+            <div id="info-screen-exit-button">
+                <img src="./imgs/icons/exitButton.png" draggable="false">
+            </div>
+            <div id="info-screen-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="info-screen-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+
+            <div id="info-screen-container">
+                <h1 id="info-screen-title"></h1>
+                <p id="info-screen-text-one"></p>
+                <p id="info-screen-text-two"></p>
+                <p id="info-screen-text-three"></p>
+                <p id="info-screen-text-four"></p>
+                <p id="info-screen-text-five"></p>
+                <button id="info-screen-start-button"></button>
+            </div>
+        </div>
+
+        <div class="page" id="page-game-choice-screen" style="display: none;">
+            <div id="game-choice-exit-button">
+                <img src="./imgs/icons/exitButton.png" draggable="false">
+            </div>
+            <div id="game-choice-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="game-choice-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+
+            <div id="game-choice-container">
+                <button id="castle-game-button"></button>
+                <button id="arms-game-button"></button>
+                <button id="random-game-button"></button>
+            </div>
+        </div>
+
+        <div class="page" id="page-game-difficulty-screen" style="display: none;">
+            <div id="game-difficulty-exit-button">
+                <img src="./imgs/icons/exitButton.png" draggable="false">
+            </div>
+            <div id="game-difficulty-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="game-difficulty-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+
+            <div id="game-difficulty-container">
+                <button id="easy-game-button"></button>
+                <button id="medium-game-button"></button>
+                <button id="hard-game-button"></button>
+                <button id="impossible-game-button"></button>
+            </div>
+            <button id="game-difficulty-back-button"></button>
+
+        </div>
+
+        <div class="page" id="page-game-screen" style="display: none;">
+            <div id="game-screen-exit-button">
+                <img src="./imgs/icons/exitButton.png" draggable="false">
+            </div>
+            <div id="game-screen-info-button">
+                <img src="./imgs/icons/infoButton.png" draggable="false">
+            </div>
+            <div id="game-screen-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="game-screen-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+            <div id="game-screen-help-button">
+                <img src="./imgs/icons/helpImgButton.png" draggable="false">
+            </div>
+
+            <div id="game-screen-image-container"></div>
+            <div id="game-screen-piece-container"></div>
+
+            <div id="game-screen-hint-button">
+                <img src="./imgs/icons/lightbulbQuestion.png" draggable="false">
+            </div>
+
+            <div id="game-screen-winner-modal" style="display: none;">
+                <h1 id="game-screen-winner-modal-title"></h1>
+                <p id="game-screen-fact-text"></p>
+                <div id="game-screen-fact-image"></div>
+                <button id="game-screen-winner-modal-restart-button"></button>
+                <button id="game-screen-winner-modal-end-button"></button>
+
+                <div id="game-screen-tts-button" style="display: block;">
+                    <img src="imgs/icons/ttsButton.png">
+                </div>
+            </div>
+
+            <div id="game-screen-help-modal" style="display: none;">
+                <h1 id="game-screen-help-modal-title"></h1>
+                <div id="game-screen-help-modal-image"></div>
+                <button id="game-screen-help-modal-close-button"></button>
+            </div>
+        </div>
+
+        <div class="page" id="page-game-info-screen" style="display: none">
+            <div id="game-info-exit-button">
+                <img src="./imgs/icons/exitButton.png" draggable="false">
+            </div>
+            <div id="game-info-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="game-info-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+
+            <div id="game-info-screen-container">
+                <h1 id="game-info-screen-title"></h1>
+                <p id="game-info-screen-text-one"></p>
+                <p id="game-info-screen-text-two"></p>
+                <p id="game-info-screen-text-three"></p>
+                <p id="game-info-screen-text-four"></p>
+                <p id="game-info-screen-text-five"></p>
+                <button id="game-info-start-button"></button>
+            </div>
+        </div>
+
+        <div class="page" id="page-end-screen" style="display: none;">
+            <div id="end-screen-exit-button">
+                <img src="./imgs/icons/exitButton.png" draggable="false">
+            </div>
+            <div id="end-screen-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="end-screen-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+
+            <h1 id="end-screen-title"></h1>
+            <p id="end-screen-timer"></p>
+            <button id="end-screen-restart-button"></button>
+            <p id="end-screen-author"></p>
+        </div>
+
+        <div id="timer" class="timer" style="display: none;">
+            <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+
+        <div class="page" id="page-motive-screen" style="display: none;">
+            <div id="motive-screen-finnish-button">
+                <img src="./imgs/icons/finButton.png" draggable="false">
+            </div>
+            <div id="motive-screen-english-button">
+                <img src="./imgs/icons/engButton.png" draggable="false">
+            </div>
+
+            <div id="motive-screen-container">
+                <h1 id="motive-screen-title"></h1>
+                <p id="motive-screen-text-one"></p>
+                <p id="motive-screen-text-two"></p>
+                <p id="motive-screen-text-three"></p>
+                <button id="motive-screen-start-button"></button>
+            </div>
+        </div>
+
+        <svg id="lines"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 3;">
+
+            <defs>
+                <marker id="arrow-head" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto"
+                    markerUnits="strokeWidth">
+                    <path d="M0,0 L0,6 L9,3 z" fill="yellow" />
+                </marker>
+            </defs>
+        </svg>
+    </div>
+</body>
+</html>
