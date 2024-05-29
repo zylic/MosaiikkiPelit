@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Kielioppi, Oppiminen, Suomi, Englanti, Kieli, Opetus, Peli, Hauska, 
+    Fun, Game, Learning, Finnish, English">
+    <meta name="description" content="Web learning games for children made fun">
+    <meta name="author" content="Niklas Virtanen & Tomas Räsälä">
+    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css"></link>
+    <link rel="stylesheet" href="./styles/buttons.css"></link>
+    <link rel="stylesheet" href="./styles/base.css"></link>
+    <link rel="stylesheet" href="./styles/screens.css"></link>
+    <title>Väripeli</title>
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+
+        <!-- Loading Screen -->
+        <div class="screen" id="loadingScreen" style="display: block">
+            <div class="ring">
+                <div class="loadingText" id="loadingText">0%</div>
+                <span></span>
+              </div>
+        </div>
+
+        <!-- Start Screen -->
+        <div class="screen" id="startScreen" style="display: none">
+            <div class="startTitle" id="startTitleText">Suomen värit</div>
+            <div class="languages" id="startLanguagesText">Kieli:</div>
+            <div class="button" id="finButton">Suomi</div>
+            <div class="button" id="engButton">Englanti</div>
+            <div id="chosenText"></div>
+            <div class="StartButton button" id="startButton">Aloita Peli</div>
+        </div>
+        
+        <!-- Pregame Screen -->
+        <div class="screen" id="pregameScreen" style="display: none;">
+            <div class="finButton button" id="finButtonPregame">
+                <img src="imgs/icons/finButton.png">
+            </div>
+            <div class="engButton button" id="engButtonPregame">
+                <img src="imgs/icons/engButton.png">
+            </div>
+            <div class="pregameTitle" id="pregameTitleText">Peliohjeet</div>
+            <div class="pregameText" id="pregameText1">Näytölle tulee näkyviin asia ja sinun pitää valita kolmesta vaihtoehdosta minkä värinen asia on.</div>
+            <div class="pregameText" id="pregameText2">Jos saat vastauksen oikein, peli kertoo sinulle hauskan faktan asiasta.</div>
+            <div class="pregameText" id="pregameText3">Jos kuvan väri on hämmentävä, katso kuvan reunaa. Se kertoo värin</div>
+            <div class="pregameText" id="pregameText4">Pelissä on yli 30 kuvaa! Yritä saada kaikki.</div>
+            <div class="pregameGoodLuck" id="pregameGoodLuckText">Onnea peliin!</div>
+            <div class="ContinueButton button" id="continueButton">Jatka</div>
+        </div>
+
+        <!-- Info Screen -->
+        <div class="screen" id="infoScreen" style="display: none">
+            <div class="finButton button" id="finButtonInfo">
+                <img src="imgs/icons/finButton.png">
+            </div>
+            <div class="engButton button" id="engButtonInfo">
+                <img src="imgs/icons/engButton.png">
+            </div>
+            <div class="infoTitle" id="infoTitleText">Peliohjeet</div>
+            <div class="infoText" id="infoText1">Näytölle tulee näkyviin asia ja sinun pitää valita kolmesta vaihtoehdosta minkä värinen asia on.</div>
+            <div class="infoText" id="infoText2">Jos saat vastauksen oikein, peli kertoo sinulle hauskan faktan asiasta.</div>
+            <div class="infoText" id="infoText3">Jos kuvan väri on hämmentävä, katso kuvan reunaa. Se kertoo värin</div>
+            <div class="infoText" id="infoText4">Pelissä on yli 30 kuvaa! Yritä saada kaikki.</div>
+            <div class="infoGoodLuck" id="infoGoodLuckText">Onnea peliin!</div>
+            <div class="InfoContinueButton button" id="infoContinueButton">Jatka</div>
+        </div>
+
+        <!-- Game Screen -->
+        <div class="screen" id="gameScreen" style="display: none">
+            <div class="gameTitle" id="gameTitleText">Mikä väri?</div>
+            <div class="gameScore">
+                <label id="gameScoreText">Pisteet: </label>
+                <label id="gameScore"></label>
+            </div>
+
+            <div id="gameTimer" class="timer">
+                00:00
+            </div>
+            <div class="gameImage" id="gameImage"></div>
+
+            <div class="helpButton button" id="helpButtonGame" tabindex="0">
+                <img src="imgs/icons/lightbulbQuestion.png">
+            </div>
+            <div class="exitButton button" id="exitButtonGame">
+                <img src="imgs/icons/exitButton.png">
+            </div>
+            <div class="infoButton button" id="infoButtonGame">
+                <img src="imgs/icons/infoButton.png">
+            </div>
+            <div class="motiveButton button" id="motiveButtonGame">
+                <img src="imgs/icons/motiveButton.png">
+            </div>
+
+            <div class="finButton button" id="finButtonGame">
+                <img src="imgs/icons/finButton.png">
+            </div>
+            <div class="engButton button" id="engButtonGame">
+                <img src="imgs/icons/engButton.png">
+            </div>
+
+            <div class="options" id="options"></div>
+            
+            <div class="gameButton" id="previousButton" style="display: none;"></div>
+            <div class="gameButton" id="nextButton" style="display: none;"></div>
+
+            <div class="ttsButton button" id="ttsButtonGame" style="display: none;">
+                <img src="imgs/icons/ttsButton.png">
+            </div>
+        </div>
+
+        <!-- Fact Screen -->
+        <div class="screen" id="factScreen" style="display: none">
+
+            <div class="factTitle" id="factTitleText">Tiesitkö?</div>
+
+            <div id="factTimer" class="timer"> 
+                00:00
+            </div>
+
+            <div class="factText">
+                <p id="factText"></p>
+            </div>
+            <div class="factGameImage" id="factGameImage"></div>
+
+            <div class="exitButton button" id="exitButtonFact">
+                <img src="imgs/icons/exitButton.png">
+            </div>
+            <div class="finButton button" id="finButtonFact">
+                <img src="imgs/icons/finButton.png">
+            </div>
+            <div class="engButton button" id="engButtonFact">
+                <img src="imgs/icons/engButton.png">
+            </div>
+
+            <div class="ttsButton button" id="ttsButtonFact" style="display: none;">
+                <img src="imgs/icons/ttsButton.png">
+            </div>
+
+            <button class="factContinue button" id="factContinue">Jatka</button>
+        </div>
+
+        <!-- End game screen -->
+        <div class="screen" id="endGameScreen" style="display: none">
+
+            <div class="endGameTitle" id="endGameTitleText">Pelin Loppu</div>
+            <div class="endGameText" id="endGameText">Kiitos pelaamisesta!</div>
+            <div class="scoreText">
+                <label id="gameScoreTextEnd">Pisteet: </label><label id="gameScoreEnd"></label>
+            </div>
+
+            <div class="finButton button" id="finButtonEndgame">
+                <img src="imgs/icons/finButton.png">
+            </div>
+            <div class="engButton button" id="engButtonEndgame">
+                <img src="imgs/icons/engButton.png">
+            </div>
+            <div class="motiveButton button" id="motiveButtonEndgame">
+                <img src="imgs/icons/motiveButton.png">
+            </div>
+
+            <div class="exitButton button" id="exitButtonEnd">
+                <img src="imgs/icons/exitButton.png">
+            </div>
+            <button class="retryButton button" id="retryButton">Uudestaan?</button>
+            <div id="madeBy"></div>
+            <div id="endTimer" class="timerText"> 
+                00:00
+            </div>
+        </div>
+
+        <!-- Game Motive Screen -->
+        <div class="screen" id="gameMotiveScreen" style="display: none">
+            <div class="finButton button" id="finButtonMotive">
+                <img src="imgs/icons/finButton.png">
+            </div>
+            <div id="motiveTimer" class="timer"> 
+                00:00
+            </div>
+            <div class="engButton button" id="engButtonMotive">
+                <img src="imgs/icons/engButton.png">
+            </div>
+
+            <div class="motiveHeader" id="motiveHeader">Motiivi</div>
+            <div class="motiveText" id="motiveText1">Tämä väripeli on tehty jotta pelaaja voi oppia tunnistamaan eri värejä suomeksi.</div>
+            <div class="motiveText" id="motiveText2">Peli on suunnattu lapsille, jotka haluavat oppia suomen kieltä.</div>
+
+            <button class="motiveContinue button" id="motiveContinue">Jatka</button>
+    </div>
+</body>
+</html>

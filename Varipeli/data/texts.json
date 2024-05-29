@@ -1,0 +1,174 @@
+{
+    "Buttons": [
+        {
+            "startButton": {
+                "fin": "Aloita Peli",
+                "eng": "Start"
+            },
+
+            "continueButton": {
+                "fin": "Jatka",
+                "eng": "Continue"
+            },
+
+            "infoContinueButton": {
+                "fin": "Jatka",
+                "eng": "Continue"
+            },
+
+            "factContinue": {
+                "fin": "Jatka",
+                "eng": "Continue"
+            },
+
+            "retryButton": {
+                "fin": "Pelaa uudestaan",
+                "eng": "Play Again"
+            },
+
+            "finButton": {
+                "fin": "Suomi",
+                "eng": "Finnish"
+            },
+
+            "engButton": {
+                "fin": "Englanti",
+                "eng": "English"
+            }
+        }
+    ],
+
+    "Texts": [
+        {
+            "gameScoreText": {
+                "fin": "Pisteet: ",
+                "eng": "Points: "
+            },
+
+            "gameScoreTextEnd": {
+                "fin": "Pisteet: ",
+                "eng": "Points: "
+            },
+
+            "chosenText": {
+                "fin": "<-",
+                "eng": "<-"
+            },
+
+            "startTitleText": {
+                "fin": "Suomen värit",
+                "eng": "Finnish Colors"
+            },
+
+            "startLanguagesText": {
+                "fin": "Kieli:",
+                "eng": "Language:"
+            },
+
+            "pregameTitleText": {
+                "fin": "Peliohjeet",
+                "eng": "Instructions"
+            },
+
+            "pregameText1": {
+                "fin": "Näytölle tulee näkyviin asia ja sinun pitää valita kolmesta vaihtoehdosta minkä värinen asia on.",
+                "eng": "You will see an object on the screen and you have to choose which color it is from three options."
+            },
+
+            "pregameText2": {
+                "fin": "Jos saat vastauksen oikein, peli kertoo sinulle hauskan faktan asiasta.",
+                "eng": "If you answer correctly, the game will tell you a fun fact about the object."
+            },
+
+            "pregameText3": {
+                "fin": "Jos kuvan väri on hämmentävä, katso kuvan reunaa. Se kertoo värin.",
+                "eng": "If the image color is confusing look at the border of the image. It tells you the color."
+            },
+
+            "pregameText4": {
+                "fin": "Pelissä on yli 30 kuvaa! Yritä saada kaikki.",
+                "eng": "The game has over 30 images! Try to get all of them."
+            },
+
+            "pregameGoodLuckText": {
+                "fin": "Onnea peliin!",
+                "eng": "Good luck!"
+            },
+
+            "infoTitleText": {
+                "fin": "Peliohjeet",
+                "eng": "Instructions"
+            },
+
+            "infoText1": {
+                "fin": "Näytölle tulee näkyviin asia ja sinun pitää valita kolmesta vaihtoehdosta minkä värinen asia on.",
+                "eng": "You will see an object on the screen and you have to choose which color it is from three options."
+            },
+
+            "infoText2": {
+                "fin": "Jos saat vastauksen oikein, peli kertoo sinulle hauskan faktan asiasta.",
+                "eng": "If you answer correctly, the game will tell you a fun fact about the object."
+            },
+
+            "infoText3": {
+                "fin": "Jos kuvan väri on hämmentävä, katso kuvan reunaa. Se kertoo värin.",
+                "eng": "If the image color is confusing look at the border of the image. It tells you the color."
+            },
+
+            "infoGoodLuckText": {
+                "fin": "Onnea peliin!",
+                "eng": "Good luck!"
+            },
+
+            "gameTitleText": {
+                "fin": "Mikä väri?",
+                "eng": "What color?"
+            },
+
+            "factTitleText": {
+                "fin": "Tiesitkö?",
+                "eng": "Did you know?"
+            },
+
+            "endGameTitleText": {
+                "fin": "Pelin loppu",
+                "eng": "Game over"
+            },
+
+            "endGameText": {
+                "fin": "Kiitos pelaamisesta!",
+                "eng": "Thank you for playing!"
+            },
+
+            "madeBy": {
+                "fin": "Tekijät - Tomas Räsälä ja Niklas Virtanen",
+                "eng": "Made by - Tomas Räsälä and Niklas Virtanen"
+            },
+
+            "yourAnswer": {
+                "fin": "Valintasi",
+                "eng": "Your choice"
+            },
+
+            "correctAnswer": {
+                "fin": "Oikea vastaus",
+                "eng": "Correct answer"
+            },
+
+            "motiveHeader": {
+                "fin": "Motiivi",
+                "eng": "Motive"
+            },
+
+            "motiveText1": {
+                "fin": "Tämä väripeli on tehty jotta pelaaja voi oppia tunnistamaan eri värejä suomeksi.",
+                "eng": "This color game is made so that the player can learn to recognize different colors in Finnish."
+            },
+
+            "motiveText2": {
+                "fin": "Peli on suunnattu kaikille, jotka haluavat oppia suomen kieltä.",
+                "eng": "The game is aimed at everyone who wants to learn Finnish."
+            }
+        }
+    ]
+}

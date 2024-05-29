@@ -1,0 +1,36 @@
+/* Screens */
+
+.screen {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 5px, inset rgba(255, 255, 255, 0.8) 3px 3px 5px, rgba(0, 0, 0, 0.7) 3px 3px 5px -3px;
+}
+
+#startScreen {
+    background-image: url(../imgs/screens/StartScreen.jpg);
+}
+
+#pregameScreen {
+    background-image: url(../imgs/screens/GameInstructionsScreen.jpg);
+}
+
+#infoScreen {
+    background-image: url(../imgs/screens/GameInstructionsScreen.jpg);
+}
+
+#gameScreen {
+    background-image: url(../imgs/screens/GameScreen.jpg);
+}
+
+#factScreen {
+    background-image: url(../imgs/screens/FactScreen.jpg);
+}
+
+#endGameScreen {
+    background-image: url(../imgs/screens/EndScreen.jpg);
+}
+
+#gameMotiveScreen {
+    background-image: url(../imgs/screens/GameMotiveScreen.jpg);
+}

@@ -1,0 +1,77 @@
+/* All Screens */
+.exitButton,
+.infoButton,
+.finButton,
+.engButton,
+.motiveButton,
+.ttsButton {
+    position: absolute;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    filter: drop-shadow(-5px 5px 5px hsl(0, 0%, 0%, 1));
+}
+
+.exitButton {
+    top: 1.5%;
+    right: 1.5%;
+}
+
+#exitButtonMotive {
+    top: 10%;
+    right: 10%;
+}
+
+.infoButton {
+    top: 1.5%;
+    right: 12.5%;
+}
+
+.finButton {
+    top: 1.5%;
+    left: 1.5%;
+}
+
+.engButton {
+    top: 1.5%;
+    left: 7%;
+}
+
+.motiveButton {
+    top: 1.5%;
+    right: 7%;
+}
+
+#ttsButtonGame {
+    bottom: 17%;
+    left: 7%;
+    transform: scale(1.1);
+}
+
+#ttsButtonFact {
+    bottom: 18.5%;
+    left: 11.5%;
+    transform: scale(1.1);
+}
+
+.infoButton:hover {
+    content: url('../imgs/icons/infoButtonHover.png')
+}
+
+.exitButton:hover {
+    content: url('../imgs/icons/exitButtonHover.png')
+}
+
+.engButton:hover {
+    content: url('../imgs/icons/engButtonHover.png')
+}
+
+.finButton:hover {
+    content: url('../imgs/icons/finButtonHover.png')
+}
+
+.motiveButton:hover {
+    content: url('../imgs/icons/motiveButtonHover.png')
+}
+
+.ttsButton:hover {
+    content: url('../imgs/icons/ttsButtonHover.png')
+}

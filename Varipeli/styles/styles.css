@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: url('../imgs/icons/cursor.png'), auto;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+    color: black;
+}
+
+.game-container {
+    background-color: black;
+    display: flex;
+    position: relative;
+    height: 650px;
+    width: 700px;
+    margin: 70px auto;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+/* Timer */
+
+.timer {
+    position: absolute;
+    left: 47.5%;
+    bottom: 0.5%;
+}
